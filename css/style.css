@@ -47,5 +47,108 @@ main section.banner h1{
     width: 40%;
     padding: 10px 20px 10px 20px;
 }
-
-
+section.servicos{
+    padding: 8vw 10vw 8vw 10vw ;
+}
+section.servicos ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+section.servicos ul li{
+    width: 25%;
+}
+section.servicos ul li span{
+    color: #3B8686;
+    font-size: 3rem;
+}
+section.servicos ul li h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+}
+section.servicos ul li p{
+    color: rgb(116, 116, 116);
+}
+section.servicos ul li button{
+    background-color: #3B8686;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0 20px 0;
+    border: none;
+}
+section.numeros{
+    padding: 6vw 10vw 3vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../imagens/back-numeros.png) no-repeat;
+    background-size: cover;
+}
+section.numeros nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.numeros ul li{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 20px 0 2px 0;
+}
+section.numeros ul li span{
+    font-size: 4rem ;
+}
+section.possibilidade{
+    padding: 10vw 10vw 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+section.possibilidade div.texto{
+    text-align: left;
+}
+section.possibilidade div.imagem{
+    text-align: right;
+}
+section.possibilidade div.texto h2{
+    font-size: 2rem;
+    color: #0B486B;
+    padding: 10px 0 50px 0;
+}
+section.possibilidade div.texto p{
+    color: #747474;
+}
+section.possibilidade button{
+    background-color: #0B486B;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 20px 20px 0;
+    border: none;
+}
+/*=================================
+             RODAPÉ
+================================*/
+footer{
+    background-color: #3B8686;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 3vw 10vw;
+}
+footer div.primeiro ul{
+    display: flex;
+    padding: 1.5vw 0 2vw 0;
+}
+footer div.primeiro ul li{
+    padding: 0 5px 0 5px;
+    font-size: 2rem;
+}
+footer div.segundo{
+    padding: 1.5vw 0 2vw 0;
+}
+footer div.segundo p{
+    padding: 5px 0 5px 0;
+}
+footer div.terceiro ul{
+    text-align: right;
+}
+footer div.terceiro ul li{
+    padding: 10px 0 10px 0;
+}
